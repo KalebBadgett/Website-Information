@@ -37,3 +37,9 @@ color: rgb(0, 149, 255);
 a:visited{
     color: rgb(195, 132, 192);
 }
+img {
+    width: 200px;
+    border-radius: 20px;
+    float: left;
+     
+}

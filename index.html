@@ -13,8 +13,8 @@
 
 <body>
 
-<div class = "container">
-    <div class = "left-side">  
+<div class = "row">
+    <div class = "col-2">  
         
         <div class="table">
             <h3>Table of Contents</h3>
@@ -26,10 +26,10 @@
             </div>    
         </div>
     </div>
-    <div class = "right-side">
+    <div class = "col-7">
         
     <h1>My Website!</h1>
-    <img class = cover src="images/My picture.jpg" alt="move">
+    
         <div class="header">
         <p>Welcome to my page! My name is Kaleb Badgett. I am a student at Texas Tech University majoring in Computer Engineering. <br>
         Through my time at Tech, I have learned many things such as, how to use Verilog, C++, Python (basic understanding), building breadboard circuits using<br> combinational and sequential logic, 
@@ -78,7 +78,7 @@
 
             <h4>Now for the Demonstration</h4>
             <p>Below, you will find a video that observes the CPU as it runs through a multiplication algorithm.</p>
-            <video width="600" controls>
+            <video class="video" controls>
                 <source src="images/Demonstration-1.MP4" type="video/mp4">  
               Your browser does not support the video tag.
               </video> 
@@ -86,7 +86,7 @@
             <h4>Next, Take a Look at the XOR Function in Action</h4>
             <p>An exclusive OR, or XOR, function is one in which if the inputs are the same, the output is zero, and if the inputs are different, the output is one.<br>
             View this for yourself in the as the CPU preforms this function!</p>
-            <video width="600" controls>
+            <video class="video" controls>
                 <source src="images/XOR.mp4" type="video/mp4">  
               Your browser does not support the video tag.
               </video> 
@@ -94,7 +94,7 @@
               <h4>This Final Video Was For Fun More Than Anything Else</h4>
               <p>In this video, we changed our clock cycle from 1 second to 1 millisecond. This causes our CPU to run almost too fast to see. Even in the slomotion capture toward<br>
              the end of the video, the calculation occurs extremely quickly.</p>
-             <video width="600" controls>
+             <video class="video" controls>
                 <source src="images/1-Milli-Test.mp4" type="video/mp4">  
               Your browser does not support the video tag.
               </video> 
@@ -117,9 +117,36 @@
     
     <h2>Hardware Projects</h2>
         <h3>Arduino related hardware projects</h3>
-        <p>Arduino Projects Here....</p>
-
-        <h3>Other Hardware Projects</h3>
+        <h4>Traffic Light Controller</h4>
+        <p>In this project, I designed a working traffic light controller that was timed using an arduino. The project report can be found <a href="/PDF files/ECE 2305 - Hardware Project 1.pdf" download="Project_Report">here</a>.</p>
+        <video class="avideo" controls>
+            <source src="images/Traffic Lights.mp4" type="video/mp4">  
+          Your browser does not support the video tag.
+          </video> 
+          <p><br></p>
+          <h4>7 Segment Display Binary Counter</h4>
+          <p>In this project, I had to design a binary counter that went from 0-9 and displayed the output on a 7 segment display. The project report can be found <a href="/PDF files/ECE 2305 - Hardware Project 02.pdf" download="Project_Report">here</a>.</p>
+          <video class="avideo" controls>
+            <source src="images/7-Seg-Display.mp4" type="video/mp4">  
+          Your browser does not support the video tag.
+          </video> 
+          <p><br></p>
+          <h4>Voltage Measurement Device Using LEDs</h4>
+          <p>In this project, I had to create a device that could measure the voltage output of a potentiometer from 0-100%. The project report can be found <a href="/PDF files/ECE 2305 - Hardware Project 03.pdf" download="Project_Report">here</a>.</p>
+          <video class="avideo" controls>
+            <source src="images/Potentiometer Lights.mp4" type="video/mp4">  
+          Your browser does not support the video tag.
+          </video>
+          <p><br></p>
+          <h4>Voltage Measurement Device Using a Servo Motor</h4>
+          <p>The goal of this project was to create a device that could measure the voltage output of a potentiometer from 0-5 volts and display it using a servo motor. <br>
+            The project report can be found <a href="/PDF files/ECE 2305 - Hardware Project 04.pdf" download="Project_Report">here</a>.</p>
+          <video class="avideo" controls>
+            <source src="images/Servo.mp4" type="video/mp4">  
+          Your browser does not support the video tag.
+          </video>
+          <p><br></p>
+          <h3>Other Hardware Projects</h3>
             <p>While I do not have pictures or videos of these projects, I have also built these:<br>
             1. A traffic light controller using sequential logic.<br>
             2. An adder using AND, OR, and NOT gates.<br>
@@ -133,5 +160,9 @@
         <p>Email me at <a href="mailto:kabadget@ttu.edu">kabadget@ttu.edu</a></p>
         </div>
     </div>
+    <div class="col-2">
+        <img class = cover src="images/My picture.jpg" alt="move">
+    </div>
+</div>
 </body>
 </html>

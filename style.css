@@ -43,17 +43,6 @@ h1 {
     text-decoration: none;
     box-sizing: border-box;
 }
-.table{
-    
-    top: 50%; /* Adjust the vertical position */
-    left: 0;
-    
-     /* Add a semi-transparent background */
-    padding: 10px;
-    border-radius: 5px;
-    box-sizing: border-box;
-}
-
 
 a{
     color: rgb(0, 149, 255);
@@ -96,7 +85,7 @@ a:visited{
     box-sizing: border-box;
 }
 .avideo{
-    max-width: 25%;
+    max-width: 100%;
     height: auto;
     box-sizing: border-box;
 }

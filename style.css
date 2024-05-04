@@ -17,11 +17,6 @@ box-sizing: border-box;
 
 }
 
-h1 {
-    transform: translateX(30%);
-    box-sizing: border-box;
-}
-
 .left-side {
     float: left;
 

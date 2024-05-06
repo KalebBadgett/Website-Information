@@ -1,8 +1,11 @@
 
-p {
+p, li{
     font-weight: normal;
     color: rgba(255, 255, 255, 0.864);
     box-sizing: border-box;
+}
+.pi{
+    font-weight: bold;
 }
 
 h4, h3, h2, h1 {

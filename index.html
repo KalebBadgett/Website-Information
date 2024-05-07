@@ -10,38 +10,61 @@
         @import url("./style.css");
     </style>
 </head>
-
 <body>
-
 <div class = "row">
     <div class = "col-2">  
         
         <div class="table">
             <h3>Table of Contents</h3>
             <div>
-                <p>
-                <a class="ToC" href="#CrownJewel">1. Crown Jewels</a></p>
-                <p class = "sub1"><a class="sub1 ToC" href="#CPUProj">A. CPU Project</a>
-                </p>
+                <p class="bottom"><a class="ToC" href="#top">1. Welcome</a></p>
+                <p class="bottom"><a class="ToC" href="#Award">2. ECE Award</a></p>
+                <p class="bottom"><a class="ToC" href="#CrownJewel">3. Crown Jewels</a></p>
+                <p class = "sub1 bottom"><a class="ToC" href="#CPUProj">A. CPU Project</a></p>
+                <p class = "sub2 bottom"><a class="ToC" href="#CPUDiagram">a. CPU Diagram</a></p>
+                <p class = "sub2 bottom"><a class="ToC" href="#CPU">b. CPU</a></p>
+                <p class = "sub2 bottom"><a class="ToC" href="#MachineCode">c. Machine Code</a></p>
+                <p class = "sub2 bottom"><a class="ToC" href="#Demonstration">d. Demonstration Video</a></p>
+                <p class = "sub2 bottom"><a class="ToC" href="#XOR">e. XOR Video</a></p>
+                <p class = "sub2"><a class="ToC" href="#1M">f. 1 millisecond Test</a></p>
+                <p class="bottom"><a class="ToC" href="#VideoGame">4. My First Game</a></p>
+                <p class = "sub1 bottom"><a class="ToC" href="#InAction">A. Nallapas In Action</a></p>
+                <p class="bottom"><a class="ToC" href="#HardwareProjects">5. Hardware Projects</a></p>
+                <p class = "sub1 bottom"><a class="ToC" href="#ArduinoProjects">A. Arduino Projects</a></p>
+                <p class = "sub2 bottom"><a class="ToC" href="#Traffic">a. Traffic Light Controller</a></p>
+                <p class = "sub2 bottom"><a class="ToC" href="#7Seg">b. 7-Seg Display</a></p>
+                <p class = "sub2 bottom"><a class="ToC" href="#VLEDs">c. Voltage Measurement (LEDs)</a></p>
+                <p class = "sub2 bottom"><a class="ToC" href="#VServo">d. Voltage Measurement (Servo)</a></p>
+                <p class = "sub1 bottom"><a class="ToC" href="#OtherHardware">B. Other Hardware Projects</a></p>
+                <p class="bottom"><a class="ToC" href="#C++">6. Programming Projects</a></p>
+                <p class="bottom"><a class="ToC" href="#Website">7. Bonus Project!</a></p>
             </div>    
         </div>
     </div>
     <div class = "col-7">
-        
-    <h1>My Website!</h1>
-    
-
-        <p>Welcome to my page! My name is Kaleb Badgett. I am a student at Texas Tech University majoring in Computer Engineering.
+    <div id="top"></div>
+    <h1>Welcome to my Website!</h1>
+    <h2>About Me</h2>
+        <p>Welcome to my page! Here, you can learn a little about me and view my personal and school related projects.
+            My name is Kaleb Badgett and I am a freshman currently attending Texas Tech University in
+            pursuit of a degree in Computer Engineering. I am from Odessa Texas and have lived there for
+            the last twelve years. I have interests in drumming, computers, hardware systems,
+            novelty board games, and sharing my faith. In my free time, I enjoy spending time with family and friends,
+            and playing tabletop board games.
+            <br><br>
         Through my time at Tech, I have learned many things such as, how to use Verilog, C++, Python (basic understanding), building breadboard circuits using combinational and sequential logic, 
         and most important of all, how to learn! As I learn more, and undergo more projects, I will update this page with the results.<br><br>
         My time at Tech has been very educational and I am very excited to put what I learn here to use in the workplace. 
         Feel free to check out my projects below!
         </p>
-
-        <div id="CrownJewel">
-            <br>
+        <div id="Award"></div>
+        <img class = "ECE" src="images/MyPicture.png" alt="ECE Award">
+        <h2>ECE Award</h2>
+        <p>
+            In my freshman year at Texas Tech, I was awarded the ECE Freshman of the Year Award, as shown in the photo. 
+        </p>
+        <div id="CrownJewel"></div>
         <h2>The Crown Jewels</h2>
-        
             <div id="CPUProj"></div>
             <h3>CPU Project</h3>
                 <p>The project I am most proud of is my final project from my Modern Digital Systems class with Professor Derek Johnston.               The goal of this project was to create a fully function CPU using breadboards and different digital logic devices. My group 
@@ -54,16 +77,18 @@
                    Below, you will find pictures displaying our CPU and some of our work regarding our machine code as well as some videos of the CPU in action!
                    In addition to this, if you would like to view the project report my team put together as well as some examples of our arduino code, you can download the PDF here <span>&#8594;</span>  <a href="/CPU_Stuff/CPU Project Report.pdf" download="Project_Report">Project Report</a>.
                 </p>
+                <div id="CPUDiagram"></div>
             <h4>First, Let's Look as the CPU Diagram</h4>
             <p>This hardware diagram shows the different components of the CPU and how they all interact with each other.</p>
             <img class = visual src="images/CPU Diagram.png" alt="Picture of the CPU Diagram">
             <p><br></p>
-
+            <div id="CPU"></div>
             <h4>Second, Take a Look at the CPU</h4>
             <p>The CPU is comprised of two multiplexers and two hex inverters on the top two boards. The next chips on the board are the two programmable logic devices,
             or PLDs. Directly below those are the two registers. To their left is an AND gate and one final hex inverter.</p>
             <img class = visual src="images/CPU Hardware.JPG" alt="Picture of the CPU">
             <p><br></p>
+            <div id="MachineCode"></div>
             <h4>Next, Let's Look at Some of Our Machine Code Calculations</h4>
             <p>Below, you will see three photos of machine code and binary multiplication calculations. We used this data to complete our multiplication algorithm
                that was then put into the arduino.</p>
@@ -73,10 +98,7 @@
             <br>
             <img class = visual src="images/Whiteboard_Machine_Code.JPG" alt="Picure of Machine Code">
             <p><br></p>
-            
-
-
-
+            <div id="Demonstration"></div>
             <h4>Now for the Demonstration</h4>
             <p>Below, you will find a video that observes the CPU as it runs through a multiplication algorithm.</p>
             <div class="iframe">
@@ -85,6 +107,7 @@
             </iframe> 
             </div>
               <p><br></p>
+              <div id="XOR"></div>
             <h4>Next, Take a Look at the XOR Function in Action</h4>
             <p>An exclusive OR, or XOR, function is one in which if the inputs are the same, the output is zero, and if the inputs are different, the output is one.
             View this for yourself in the as the CPU preforms this function!</p>
@@ -94,6 +117,7 @@
             </iframe> 
             </div>
               <p><br></p>
+              <div id="1M"></div>
               <h4>This Final Video Was For Fun More Than Anything Else</h4>
               <p>In this video, we changed our clock cycle from 1 second to 1 millisecond. This causes our CPU to run almost too fast to see. Even in the slomotion capture toward
              the end of the video, the calculation occurs extremely quickly.</p>
@@ -104,26 +128,24 @@
              </div>
             <p>This was a very fun and educational project that I'm glad I was able to undertake. If you would like to access the full report, you can do so <a href="/CPU_Stuff/CPU Project Report.pdf" download="Project_Report">here</a>.</p>
         <br>
+        <div id="VideoGame"></div>
         <h3>My First Video Game!</h3>
-        
         <p>Next on my list of projects is my very own "build your own adventure" game called Defending Nallapas.
             In this Science Fiction based game, you will make a series of choices that will have an affect on your future.
         </p>
-        
         <p>In this prompt based games, you will be presented with many choices and every coice you make will have an effect moving forward.
             It may be something as simple as who you talk to, How you react to a situation, or even the words you choose to use
             but it will have an effect all the same. Will you be the hero who saves the galaxy? Or will you be the villain bent on domination?
             It is all up to you in Defending Nallapas! Are you ready to venture <a href="https://github.com/KalebBadgett/Defending-Nallapas/tree/main" target="_blank">where no man has gone before?</a>
         </p>
-
+        <div id="InAction"></div>
         <h4>Defending Nallapas in Action</h4>
         <p>Once you download the required files from my GitHub page, you'll want to find the setup.exe file and open it.</p>
         <img class = visual src="images/File Locations.png" alt="Defending Nallapas files in downloads.">
         <br>
         <p>Once setup.exe is open, you will be presented with a setup wizard. Just follow the instructions to download the game!</p>
         <img class = visual src="images/Instalation Wizard.png" alt="Setup Wizard.">
-        <p>*Make sure to save the file in a location where you can find it so that you can locate the application file easily! You may want to save the application file to your desktop for easier access.</p>
-            
+        <p>*Make sure to save the file in a location where you can find it so that you can locate the application file easily! You may want to save the application file to your desktop for easier access.</p>           
         <p>Once the game is launched, you'll be met with the following screen.</p>
         <img class = visual src="images/Output-1.png" alt="Game greeting.">
         <br>
@@ -134,9 +156,11 @@
             <p>If you are interested in my game, follow the link <a href="https://github.com/KalebBadgett/Defending-Nallapas/tree/main" target="_blank">here</a> to access my GitHub and download it for yourself! Make sure to read the README file listed on the GitHub page as it will give you download instructions.
             <br><br>If you have any feedback for improvements, feel free to email me at <a href="mailto:kabadget@ttu.edu">kabadget@ttu.edu</a></menu>. 
         </p><br>
-    
+        <div id="HardwareProjects"></div>
     <h2>Hardware Projects</h2>
+    <div id="ArduinoProjects"></div>
         <h3>Arduino related hardware projects</h3>
+        <div id="Traffic"></div>
         <h4>Traffic Light Controller</h4>
         <p>In this project, I designed a working traffic light controller that was timed using an arduino. The project report can be found <a href="/PDF files/ECE 2305 - Hardware Project 1.pdf" download="Project_Report">here</a>.</p>
         <div class="iframe">
@@ -145,6 +169,7 @@
             </iframe>
         </div>
           <p><br></p>
+          <div id="7Seg"></div>
           <h4>7 Segment Display Binary Counter</h4>
           <p>In this project, I had to design a binary counter that went from 0-9 and displayed the output on a 7 segment display. The project report can be found <a href="/PDF files/ECE 2305 - Hardware Project 02.pdf" download="Project_Report">here</a>.</p>
           <div class="iframe">
@@ -153,6 +178,7 @@
             </iframe>
           </div>
           <p><br></p>
+          <div id="VLEDs"></div>
           <h4>Voltage Measurement Device Using LEDs</h4>
           <p>In this project, I had to create a device that could measure the voltage output of a potentiometer from 0-100%. The project report can be found <a href="/PDF files/ECE 2305 - Hardware Project 03.pdf" download="Project_Report">here</a>.</p>
           <div class="iframe">
@@ -161,6 +187,7 @@
             </iframe>
             </div>
           <p><br></p>
+          <div id="VServo"></div>
           <h4>Voltage Measurement Device Using a Servo Motor</h4>
           <p>The goal of this project was to create a device that could measure the voltage output of a potentiometer from 0-5 volts and display it using a servo motor.
             The project report can be found <a href="/PDF files/ECE 2305 - Hardware Project 04.pdf" download="Project_Report">here</a>.</p>
@@ -170,8 +197,8 @@
             </iframe>
             </div>
           <p><br></p>
+          <div id="OtherHardware"></div>
           <h3>Other Hardware Projects</h3>
-          
           <p>While I do not have pictures or videos of all them, I have also built these:</p>
             <ol>
             <li>A traffic light controller using sequential logic made with D-Flip Flops.</li><br>
@@ -179,12 +206,10 @@
             <img class = visual src="images/Gate Adder.png" alt="Adder made with logic gates."></li><br>
             <li>An adder using a programmable logic device (PLD).
             <img class = visual src="images/PLD Adder.png" alt="Adder made with PLD."></li>
-            
         </ol>  
             <br>
-    
+            <div id="C++"></div>
     <h2>C++ Programming Projects</h2>
-    <h3>Traffic Lights Using an Arduino</h3>
     <ol>
     <li>In my first programming project, I completed models a simple RC circuit. It takes in user inputs for time and calculates current
         and voltage based off that. You can find the project report with code included <a href="/PDF files/ECE 2305 - Programming Project 01.pdf" download="Project_Report">here</a>.</li><br>
@@ -216,13 +241,22 @@
     <li>The tenth and final programming project was to use classes, overloaded operators, and object oriented programming to complete different 
         operations on complex numbers. You can find the project report with code included <a href="/PDF files/ECE 2305 - Programming Project 10.pdf" download="Project_Report">here</a>.
     </li>
-    
     </ol>
-        <p>Email me at <a href="mailto:kabadget@ttu.edu">kabadget@ttu.edu</a>.</p>
-        </div>
+    <div id="Website"></div>
+    <h2>Bonus Project!</h2>
+    <p>One project that has yet to be mentioned is ther very website you are reading from! To build this website, I used online resources, 
+        and the knowledge of a couple of friends to teach myself how to use HTML and CSS. Through this, I was able to style this website 
+        in order to make it responsive. This is what allows the website to shift and change depending on the screen size. I made it this 
+        way so that the website would be viewable on computers and phones. To make it responsive, I split the website into a twelve section
+        grid. With each section controlling a different sections of the webpage, it changes with the size of the screen. This is only one of
+        the many styling choices I am using. If you would like to see the HTML and CSS code used for this website, you can view it on my 
+        GitHub <a href="https://github.com/KalebBadgett/Website-Information" target="_blank">here</a>
+    </p>
+    <br>
+    <p class="top"><a class="ToC" href="#Top">Back to Top</a></p> 
     </div>
     <div class="col-2">
-        <img class = cover src="images/My picture.jpg" alt="move">
+        <img class = cover src="images/MyPicture.png" alt="move">
     </div>
 </div>
 </body>

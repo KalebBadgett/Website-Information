@@ -4,6 +4,9 @@ p, li{
     color: rgba(255, 255, 255, 0.864);
     box-sizing: border-box;
 }
+.links{
+    display: block;
+}
 .sep{
     line-height: 100%;
     box-sizing: border-box;

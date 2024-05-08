@@ -4,6 +4,9 @@ p, li{
     color: rgba(255, 255, 255, 0.864);
     box-sizing: border-box;
 }
+.disc{
+    margin-left: -20%;
+}
 .links{
     display: block;
 }
@@ -24,7 +27,7 @@ p, li{
     text-align: center;
     font-size: large;
 }
-h4, h3, h2, h1 {
+h5, h4, h3, h2, h1 {
     font-weight: bold;
     color: rgba(255, 255, 255, 0.945);
     box-sizing: border-box;

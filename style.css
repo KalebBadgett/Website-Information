@@ -4,9 +4,6 @@ p, li{
     color: rgba(255, 255, 255, 0.864);
     box-sizing: border-box;
 }
-.disc{
-    margin-left: -20%;
-}
 .links{
     display: block;
 }
@@ -115,7 +112,7 @@ a:visited{
 [class*="col-"] {
     float: left;
     padding: 15px;
-    border: 1px solid red;
+    
 }
 .row::after {
     content: "";
